@@ -1,0 +1,32 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+    </style>
+  </head>
+  <body>
+    {% include "quiz/navbar.html" %}
+    <br><br><br><br><br>
+<img src="{% static "image/logout_img.png" %}"  style="width:800px; height:100px; padding-left:400px;">
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+    <footer>
+{% include "quiz/footer.html" %}
+</footer>
+  </body>
+</html>
